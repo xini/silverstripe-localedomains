@@ -1,0 +1,19 @@
+{
+	"name": "xini/silverstripe-localedomains",
+	"description": "Allows to setup a domain for each language configured and forces translated pages to the domain according to their locale.",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "translatable", "domain", "translation"],
+	"authors": [{
+		"name": "Florian Thoma",
+		"email": "florian@innoweb.com.au"
+	}],
+	"require":
+	{
+		"silverstripe/framework": "~3.0",
+		"silverstripe/cms": "~3.0",
+		"silverstripe/translatable": "~1.0"
+	},
+	"extra": {
+		"installer-name": "localedomains"
+	}
+}
