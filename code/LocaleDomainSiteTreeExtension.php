@@ -56,4 +56,12 @@ class LocaleDomainSiteTreeExtension extends SiteTreeExtension
         }
         return $link;
     }
+    
+    public function updateRelativeLink(&$base, &$action) 
+    {
+        if ($base == RootURLController::get_default_homepage_link()) {
+            $base = '';
+        }
+    }
+
 }
