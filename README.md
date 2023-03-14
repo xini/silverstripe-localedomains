@@ -1,5 +1,8 @@
 # Local Domains
 
+**This is an archived project and is no longer maintained. Please do not file issues or pull-requests against this repo. If you wish to continue to develop this code yourself, we recommend you fork it or contact us.**
+
+
 ## Introduction
 
 Allows to setup a domain for each language configured and forces translated pages to the domain 
